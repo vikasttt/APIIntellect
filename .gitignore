@@ -1,0 +1,46 @@
+ Python
+__pycache__/
+__pycache__/
+*.py[oc]
+*.py[cod]
+build/
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+dist/
+wheels/
+build/
+*.egg-info
+.eggs/
+# Virtual environments
+# Virtual environments
+.venv
+.venv/
+venv/
+env/
+# uv
+uv.lock
+# Environment
+.env
+.env.local
+.env.*.local
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+# Uploads
+uploads/
+# Logs
+*.log
+logs/
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+# OS
+.DS_Store
+Thumbs.db

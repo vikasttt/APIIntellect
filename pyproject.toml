@@ -1,0 +1,39 @@
+[project]
+name = "smart-client"
+version = "0.1.0"
+description = "Smart Client — Production RAG + Agentic Chat Backend"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiofiles>=25.1.0",
+    "alembic>=1.18.4",
+    "anydi>=0.74.2",
+    "asyncpg>=0.30.0",
+    "docling>=2.90.0",
+    "fastapi>=0.115.0",
+    "httpx>=0.27.0",
+    "langchain>=0.3.0",
+    "langchain-cohere>=0.3.0",
+    "langchain-community>=0.3.0",
+    "langchain-experimental>=0.3.0",
+    "langchain-openai>=0.2.0",
+    "langgraph>=0.2.0",
+    "langgraph-checkpoint-postgres>=2.0.0",
+    "opentelemetry-sdk>=1.25.0",
+    "pgvector>=0.3.0",
+    # psycopg2 for SQLAlchemy ORM / alembic
+    "psycopg2-binary>=2.9.9",
+    # psycopg3 (psycopg) for LangGraph AsyncPostgresSaver + AsyncConnectionPool
+    "psycopg[binary,pool]>=3.1.0",
+    "pydantic>=2.7.0",
+    "pydantic-settings>=2.3.0",
+    "python-dotenv>=1.0.0",
+    "sqlalchemy[asyncio]>=2.0.30",
+    "tenacity>=8.3.0",
+    "uvicorn[standard]>=0.30.0",
+    "structlog>=24.4.0",
+    "python-multipart>=0.0.12",
+]
+
+
+
